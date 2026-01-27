@@ -1,6 +1,6 @@
 class butterflyPattern {
 
-
+  
     public void PrintButterfly(int n){
 
         for(int i = 1 ; i <= n; i++){
