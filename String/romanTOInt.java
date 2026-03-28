@@ -1,6 +1,8 @@
 import java.util.Map;
 class romanToInt {
-    public int romanToIntFun(String s) {
+
+   
+    public static int romanToIntFun(String s) {
 
         Map<Character, Integer> roman = Map.of(
             'I', 1,
@@ -28,5 +30,11 @@ class romanToInt {
         total += roman.get(s.charAt(s.length() - 1));
 
         return total;
+    }
+
+    public static void main(String[] args) {
+        // romanToIntFun obj = new romanToIntFun();
+        // obj("IXL");
+        romanToIntFun("IM");
     }
 }
