@@ -51,6 +51,7 @@ public class hashingIntro {
             q--;
 
         }
+        sc.close();
     }
     public static void main(String[] args) {
 
