@@ -10,5 +10,6 @@ public class sumofNnum {
         int i = 4 ;
         int sum = 0;
         sumofN(i, sum);
+        
     }
 }
