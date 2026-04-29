@@ -7,9 +7,10 @@ public class sumofNnum {
         sumofN(i-1, sum+1);
     }
     public static void main(String[] args) {
-        int i = 4 ;
-        int sum = 0;
-        sumofN(i, sum);
         
+        int sum = 0;
+        int i = 4 ;
+        sumofN(i, sum);
+
     }
 }
